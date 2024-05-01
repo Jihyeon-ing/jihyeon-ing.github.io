@@ -10975,3 +10975,18 @@ section.resume-section .resume-section-content {
 .list-item{
   margin-bottm: 20px;
 }
+
+progress {
+   width: 200px;
+   height: 15px;
+   color: blue;
+   -webkit-appearance: none;
+   appearance: none;
+  border: 1px solid gray;
+}
+progress::-webkit-progress-bar {
+   background-color: white;
+}
+progress::-webkit-progress-value {
+   background-color: bs-primary-rgb;
+}
