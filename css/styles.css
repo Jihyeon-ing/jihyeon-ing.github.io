@@ -10922,7 +10922,7 @@ p.lead {
   }
 }
 .social-icons .social-icon {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 3.5rem;
@@ -10942,9 +10942,6 @@ p.lead {
 .social-icons .social-icon img {
   height: 3.5rem; /* 원하는 높이 값으로 조정 */
   width: auto; /* 가로폭은 자동으로 조정되도록 설정 */
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   margin-right: 1.5rem;
 }
 .social-icons .social-icon i {
